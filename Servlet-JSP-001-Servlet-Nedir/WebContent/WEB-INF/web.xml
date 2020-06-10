@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Servlet-JSP-001-Servlet-Nedir</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  	<servlet-name>ServletOgrenmek</servlet-name>
+  	<servlet-class>paket01.Notasyon_Xml</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ServletOgrenmek</servlet-name>
+  	<url-pattern>/notasyonXml</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  	<servlet-name>ServletYapilandirma</servlet-name>
+  	<servlet-class>servlet.config.ServletConfigClass</servlet-class>
+  	
+  	<init-param>
+  		<param-name>paramSite</param-name>
+  		<param-value>ibrhalil.com</param-value>
+  	</init-param>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ServletYapilandirma</servlet-name>
+  	<url-pattern>/ServletConfigClass</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

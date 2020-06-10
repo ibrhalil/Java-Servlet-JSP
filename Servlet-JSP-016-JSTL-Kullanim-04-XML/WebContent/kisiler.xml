@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kisiler>
+	<kisi>
+		<ad>Halil</ad>
+		<soyad>Aydın</soyad>
+		<yas>24</yas>
+	</kisi>
+	<kisi>
+		<ad>ibrahim</ad>
+		<soyad>Aydın</soyad>
+		<yas>24</yas>
+	</kisi>
+	<kisi>
+		<ad>mehmet</ad>
+		<soyad>kenen</soyad>
+		<yas>24</yas>
+	</kisi>
+	<kisi>
+		<ad>ozi</ad>
+		<soyad>ay</soyad>
+		<yas>12</yas>
+	</kisi>
+</kisiler>

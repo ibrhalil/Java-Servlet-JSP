@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Servlet-JSP-002-JSP-Nedir">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="Servlet-JSP-002-JSP-Nedir"/>
+        <property name="java-output-path" value="/Servlet-JSP-002-JSP-Nedir/build/classes"/>
+    </wb-module>
+</project-modules>

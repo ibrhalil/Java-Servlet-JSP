@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Servlet-JSP-002-JSP2-Attribute-Scope">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="java-output-path" value="/Servlet-JSP-002-JSP2-Attribute-Scope/build/classes"/>
+        <property name="context-root" value="Servlet-JSP-002-JSP2-Attribute-Scope"/>
+    </wb-module>
+</project-modules>
